@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.logicify.screenups</groupId>
+    <artifactId>screenups-all</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>screenups-common</module>
+        <module>screenups-sh-prototype</module>
+        <module>screenups-recorder</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>xuggle</groupId>
+                <artifactId>xuggle-xuggler</artifactId>
+                <version>5.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.intellij</groupId>
+                <artifactId>darcula</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jdesktop</groupId>
+                <artifactId>timing-framework</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jdesktop</groupId>
+                <artifactId>animated-transitions</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.intellij</groupId>
+                <artifactId>forms_rt</artifactId>
+                <version>7.0.3</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>Xuggle</id>
+            <url>http://xuggle.googlecode.com/svn/trunk/repo/share/java/</url>
+        </repository>
+        <repository>
+            <id>LocalDeps</id>
+            <url>file://${project.basedir}/../lib</url>
+        </repository>
+        <repository>
+            <id>LocalDepsParent</id>
+            <url>file://${project.basedir}/lib</url>
+        </repository>
+    </repositories>
+</project>

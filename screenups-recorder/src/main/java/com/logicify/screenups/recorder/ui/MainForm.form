@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.logicify.screenups.recorder.ui.MainForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="538" height="394"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <maximumSize width="519" height="366"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="5b3fc" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9199a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="26"/>
+              <text value="Screenup Recorder"/>
+            </properties>
+          </component>
+          <hspacer id="39a">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="538a3" class="javax.swing.JLabel" binding="logo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="images/logo.png"/>
+              <iconTextGap value="2"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6641" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <toolbar id="26a1b">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <margin top="0" left="50" bottom="0" right="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="18de0" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Screenups Recorder GPL v.3"/>
+                </properties>
+              </component>
+              <hspacer id="f2a1a">
+                <constraints/>
+              </hspacer>
+            </children>
+          </toolbar>
+          <grid id="52cb2" binding="activityContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="519" height="366"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <vspacer id="258cd">
+                <constraints border-constraint="Center"/>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
